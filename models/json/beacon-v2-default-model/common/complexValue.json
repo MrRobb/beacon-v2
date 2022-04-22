@@ -4,7 +4,7 @@
         "TypedQuantity": {
             "properties": {
                 "quantity": {
-                    "$ref": "./quantity.json",
+                    "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/models/json/beacon-v2-default-model/common/quantity.json",
                     "description": "Quantity denoting the outcome of the measurement",
                     "example": {
                         "quentity": {

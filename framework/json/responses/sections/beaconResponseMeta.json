@@ -3,26 +3,26 @@
     "description": "Information about the response that could be relevant for the Beacon client in order to interpret the results.",
     "properties": {
         "apiVersion": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/ApiVersion",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/ApiVersion",
             "description": "Version of the API."
         },
         "beaconId": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/BeaconId",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/BeaconId",
             "description": "Identifier of the beacon, as defined in `Beacon`."
         },
         "receivedRequestSummary": {
-            "$ref": "./beaconReceivedRequestSummary.json",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/sections/beaconReceivedRequestSummary.json",
             "description": "Section of the response that summarize the request received as it has been interpreted by teh Beacon server."
         },
         "returnedGranularity": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/Granularity",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/Granularity",
             "description": "Requested granularity. Targeted Beacon could respond or not with the requested granularity. E.g. record level granularity could be requested, but the Beacon could respond only with boolean or count results."
         },
         "returnedSchemas": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/ListOfSchemas"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/ListOfSchemas"
         },
         "testMode": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/TestMode",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/TestMode",
             "description": "Used for indicating that a response is returned in a test context. Purposed for compliance testing. Information returned could be fake."
         }
     },

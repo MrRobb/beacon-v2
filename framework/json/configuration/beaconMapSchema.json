@@ -64,7 +64,7 @@
     "description": "Map of a Beacon, its entry types and endpoints. It isconceptually similar to a website sitemap.",
     "properties": {
         "$schema": {
-            "$ref": "../common/beaconCommonComponents.json#/definitions/$schema"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/$schema"
         },
         "endpointSets": {
             "additionalProperties": {

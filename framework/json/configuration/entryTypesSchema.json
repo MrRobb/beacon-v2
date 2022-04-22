@@ -4,7 +4,7 @@
     "definitions": {
         "EntryTypes": {
             "additionalProperties": {
-                "$ref": "./entryTypeDefinition.json",
+                "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/configuration/entryTypeDefinition.json",
                 "type": "object"
             },
             "description": "This is a dictionary of the entry types implemented in this Beacon instance.",

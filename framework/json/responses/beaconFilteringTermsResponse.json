@@ -4,11 +4,11 @@
     "description": "List of filtering terms response.",
     "properties": {
         "meta": {
-            "$ref": "./sections/beaconInformationalResponseMeta.json",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/responses/sections/beaconInformationalResponseMeta.json",
             "description": "Information about the response that could be relevant for the Beacon client in order to interpret the results."
         },
         "response": {
-            "$ref": "./sections/beaconFilteringTermsResults.json",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/responses/sections/beaconFilteringTermsResults.json",
             "description": "Actual list of filtering terms."
         }
     },

@@ -252,7 +252,7 @@
                         ]
                     ],
                     "items": {
-                        "$ref": "../common/externalReference.json"
+                        "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/models/json/beacon-v2-default-model/common/externalReference.json"
                     },
                     "type": "array"
                 }

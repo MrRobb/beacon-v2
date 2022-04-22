@@ -5,15 +5,15 @@
     "description": "Meta information about the response.",
     "properties": {
         "apiVersion": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/ApiVersion",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/ApiVersion",
             "description": "Version of the API."
         },
         "beaconId": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/BeaconId",
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/BeaconId",
             "description": "Identifier of the beacon, as defined in `Beacon`."
         },
         "returnedSchemas": {
-            "$ref": "../../common/beaconCommonComponents.json#/definitions/ListOfSchemas"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2/main/framework/json/common/beaconCommonComponents.json#/definitions/ListOfSchemas"
         }
     },
     "required": [
